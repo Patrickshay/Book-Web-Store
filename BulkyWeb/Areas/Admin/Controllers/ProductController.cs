@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace BulkyBook.areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
